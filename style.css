@@ -1,0 +1,218 @@
+/*Header--------------------------------------------------*/
+header{    
+    padding: 10px 0;
+}
+.banner-header{    
+    font-size: 28px;   
+    text-align: center; 
+    color: gray;      
+}
+.banner-header em{
+    color: red;
+    font-weight: bold;
+}
+.header-mid{
+    background: url("bg-red.jpg");
+}
+.caixa{
+    width:940px;
+    position:relative;
+    margin: 5px auto;
+    padding: 10px 0;
+}
+.caixa h3{
+    color:whitesmoke;
+    font-size: 28px;
+    font-weight: bold;
+    border-top: 3px solid whitesmoke;
+    display: inline;
+}
+.logo{
+    width:150px;
+}
+nav{
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    color: White;
+    transition: 1s;
+}
+nav a:hover{
+    text-decoration: underline;        
+}
+nav a:active{
+    color:goldenrod
+}
+/*Main---------------------------------------------------*/
+.principal{
+    width: 940px;
+    margin: 0 auto;       
+}
+.titulo-principal{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2em 0 1em 0;  
+    clear: left;  
+}
+.imagem-toon{
+    width: 250px;
+    margin: 2em auto;
+    display: block; 
+    opacity: 1;  
+    transition: 1s;     
+}
+.imagem-toon:hover{
+    opacity: 0.3;    
+}
+section p{
+    font-size: 20px;  
+    padding: 20px 0;   
+}
+section strong{
+    font-weight: bold;
+}
+/*Formato do torneio-----------------------------------*/
+.formato-conteudo{
+    width: 940px;
+    margin: 0 auto;
+    
+}
+.duelistas-imagem{
+    width: 250px;
+    float: left;
+    opacity: 1;
+    margin-right: 1em;
+}
+.duelistas-imagem:hover{
+    opacity: 0.3;
+}
+/*Requisitos-------------------------------------------*/
+.requisitos{       
+    background: linear-gradient(white, gray); 
+    clear: left;
+}
+.requisitos-conteudo{
+    width: 640px;
+    margin: 3em auto 0 auto;
+    font-style: italic;
+}
+.requisitos-lista{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+.itens{
+    font-size: 18px;
+    font-style: italic;
+    line-height: 2.0;
+}
+.itens:first-child{
+    font-weight: bold;
+}
+.itens:before{
+    content: "★ ";
+    color: gold;
+}
+.keith-imagem{
+    width: 45%;
+    right: 0;
+    margin-bottom: 2em;
+    border-radius: 50px;
+    opacity: 1;  
+    transition: 1s;     
+}
+.keith-imagem:hover{
+    opacity: 0.3;    
+}
+
+/*Lista Decks-------------------------------------------*/
+.premiacao{
+      background: gray;
+      padding: 0 0 3em 0;
+}
+.premiacao-conteudo{
+    width: 940px;
+    margin: 0 auto;      
+}
+.decks{     
+	padding: 50px 0;    
+    display: flex;
+    justify-content: center;
+}
+.decks li{    
+    text-align: center;
+    margin: 0 1.5%; 
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 50px;   
+    background: white;        
+}
+
+.decks li:hover{    
+       border-color: gold;
+}
+.premios-titulo{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Copyright e logo-fim footer-end*/
+.footer-head{
+    background: whitesmoke; 
+    border: 2px solid black; 
+    text-align: center;  
+}
+.footer-head p{
+    font-size: 22px;
+    line-height: 1.5;
+}
+.footer-head strong{
+    color: gold;
+    font-weight: bold;
+}
+.footer-end{
+    background: url("bg-red.jpg");
+    padding: 2em 0;
+}
+.footer-caixa{    
+    width: 940px;
+    margin: 0 auto; 
+    text-align: center;       
+}
+.logo-fim{
+	width: 100px;   
+}
+.copyright{
+	font-weight: bold;
+    color: white;
+    padding: 1em 0;
+    font-size: 13px;
+}
