@@ -12,7 +12,7 @@ header{
     font-weight: bold;
 }
 .header-mid{
-    background: url("C:/Users/leozp/Desktop/Html-eCss/Torneio-Pegasus/site/bg-red.jpg");
+    background: url("bg-red.jpg");
 }
 .caixa{
     width:940px;
@@ -199,7 +199,7 @@ section strong{
     font-weight: bold;
 }
 .footer-end{
-    background: url("C:/Users/leozp/Desktop/Html-eCss/Torneio-Pegasus/site/bg-red.jpg");
+    background: url("bg-red.jpg");
     padding: 2em 0;
 }
 .footer-caixa{    
